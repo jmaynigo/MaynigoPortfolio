@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #92a8d1;
+    color: #fff;
+}
+
+section.aboutMe {
+    min-height: 10vh;
+    padding: 11rem 10% 9rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: #1d2b44;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.topNav a {
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.topNav a:hover {
+    color: #92a8d1;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMeSection h3 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.aboutMeSection h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 1;
+    color: #1d2b44;
+}
+
+.aboutMeSection p {
+    font-size: 1rem;
+}
+
+.aboutMeImg img {
+    width: 30vw;
+}
+
+#title {
+    font-size: 100px;
+    color:#1d2b44;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+section.college,
+section.senior,
+section.junior,
+section.primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    background-color: #fff;
+    color: #1d2b44;
+}
+
+section.college,
+section.junior {
+    text-align: right;
+}
+
+section.college {
+    padding-top: 50px;
+}
+
+section.primary {
+    padding-bottom: 100px;
+}
+
+.education h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.education h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.education p {
+    font-size: 1rem;
+}
+
+.education img {
+    width: 20vw;
+}
+
+section.experience-skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    background-color:#92a8d1;
+    color:#fff;
+    margin: .5rem 10rem;
+    padding-top: 100px;
+
+}
+
+section.experience-skills dt {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.web img {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    height: 18vw;
+}
+
+.mobile img {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    height: 30vw;
+}
+
+.mobile h1 {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 80px;
+}
+
+section.projects {
+    margin-top: 5rem;
+    padding: 5rem 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color:#1d2b44;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 2;
+    color: #fff;
+}
+
+.contactInfo a,
+.contactInfo i,
+.contactInfo p {
+    color: #fff;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
